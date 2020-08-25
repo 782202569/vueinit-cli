@@ -1,0 +1,2 @@
+export const SLIDER_NAME_TIP = 'SLIDER_NAME_TIP'
+export const SLIDER_NAME_OUT = 'SLIDER_NAME_OUT'

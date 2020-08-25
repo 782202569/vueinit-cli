@@ -1,0 +1,78 @@
+package.json
+
+已清除的没有使用到的依赖：
+
+"dependencies" : {
+
+    "clipboard": "^2.0.0",
+    "echarts-gl": "^1.0.0-beta.5",
+    "iview": "^2.0.0-rc.16",
+    "snapsvg": "^0.5.1",
+    "ut-agent-center": "^1.0.0",
+    "vue-aplayer": "^0.1.1",
+    "vue-core-image-upload": "^2.0.5",
+    "vue-datasource": "^1.0.4",
+    "vue-echarts-v3": "^1.0.4",
+    "vue-quill-editor": "^2.2.1",
+    "vue-simplemde": "^0.3.2",
+    "vue-websocket": "^0.2.2",
+    "vue2-editor": "^2.0.24",
+    "es6-promise": "^4.1.0"
+}
+
+
+没使用到的文件：
+common{
+  Contentnav.vue
+  Speakspeech.vue  // 在Speech.vue有引用但是被注释掉了
+  systemRate.vue
+  tapeContent.vue
+}
+page{
+  PersonSelect.vue
+  topic{
+    topic.vue   // router index.js主题聚类注释掉了
+    addTrainSampleDialog.vue
+  }
+  thematicAnalysis：{
+    thematicAnalysis.vue   // router index.js 专题分析注释掉了
+  }
+  score:{
+    scoreResultInfo.vue // router index.js 质检成绩注释掉了
+  }
+  recordingPlay:{
+    recordingPlay.vue  // router index.js 录音播放注释掉了
+    play：{
+      qaView.vue
+      qaDetail.vue
+      qaAppealScore.vue
+    }
+  }
+  quality:{
+    caseManage_new.vue  // router index.js 案例管理注释掉了
+    IVSshensuguanli.vue  // router index.js 申诉管理注释掉了
+    ReviewTaskCopy.vue
+    ReconsiderTaskCopy.vue
+    InitialITaskCopy.vue
+  }
+  orderAppeal：{
+    tab/orderInfo.vue
+  }
+  intellSample：{
+    intellChart.vue
+  }
+  Analysis:{
+    result.vue
+  }
+  calibration:{
+    qaCalibration.vue 
+  }
+  orderAppeal/tab{
+    orderInfo.vue
+  }
+  business:{
+    newTemplate.vue  // 提示有使用 经查证并不是此文件
+  }
+
+
+}
